@@ -1,0 +1,121 @@
+*{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#btn {
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(12, 12, 1);
+    background-color: #9cd305;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(12, 11, 11);
+  }
+  
+  #btn:hover {background-color: #fceb06}
+  
+  #btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(7, 7, 7);
+    transform: translateY(4px);
+  }
+  
+  .bg_img{
+    background-image: url('http://pm1.narvii.com/6246/fcdf34bae5d56632c6b147e067c8d7443e737323_00.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 470px;
+    width:500px;
+    margin-left: 500px;
+  }
+.pagination{
+  word-spacing: 2px;
+  color: black;
+  justify-content: center;
+  border: 3px solid;
+  background-color: #3e8e41;
+  }
+#pokemon_info{
+  width: 90%;
+  padding-top: 0.5em;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows:48% 48%;
+  justify-content:left;
+  margin: 0 auto;
+  gap: 1em;
+  text-transform: capitalize;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #e1fa04;
+}
+.image{
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+#btn{
+  text-align: center;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+  height: 100px;
+}
+div.name{
+  font-weight: bold;
+}
+div.wght{
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  font-size:bolder;
+  padding:0px;
+  margin:0px;
+}
+div.ability{
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  font-size:bolder;
+  padding:0px;
+  margin:0px;
+}
+div.move{
+  font-weight:600;
+  color: rgb(7, 7, 7);
+  font-size:bolder;
+  margin:0;
+  padding:0;
+}
+.pokemon{
+  font-weight: 800;
+  color: rgb(7, 7, 7);
+  font-size: larger;
+  padding:0;
+  margin:0;
+}
+
+img{
+  width:200px;
+  height:200px;
+  margin:0;
+  padding: 0;
+}
+.card{
+  height: 400px;
+  align-items: flex-start;
+}
